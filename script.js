@@ -26,6 +26,7 @@ boxes.forEach((box) => {
             box.innerText = "X";
             turn0 = true
         }
+        box.classList.add("pointer")
         if (boxes[0].innerText != "" &&
             boxes[1].innerText != "" &&
             boxes[2].innerText != "" &&
@@ -41,8 +42,8 @@ boxes.forEach((box) => {
                 val.classList.remove("pointer")
             })
             mainBox.classList.remove("pointer")
+            turn0 = true;
         }
-        box.classList.add("pointer")
         checkWinner();
     });
 });
