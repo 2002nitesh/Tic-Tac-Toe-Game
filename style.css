@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+.text{
+    text-align: center;
+    padding: 1rem;
+    font-weight: 1000;
+    text-shadow: 2px 2px 5px rgb(12, 11, 11);
+}
+.pointer{
+    pointer-events: none;
+}
+.massage{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.hide{
+    display: none;
+}
+.massage h2{
+    color: green;
+    font-weight: 800;
+    text-shadow: 2px 2px 5px rgb(245, 245, 245);
+}
+.massage p{
+    color: rgb(51, 51, 56);
+    font-weight: 600;
+}
+.container{
+    height: 23rem;
+    width: 23rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: auto;
+}
+.box{
+    height: 7rem;
+    width: 7rem;
+    background-color: gray;
+    border-radius: 1rem;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+#rst-btn{
+    /* margin-top: 1rem; */
+    display: block;
+    margin: 2rem auto 0rem auto;
+    height: 2rem;
+    width: 7rem;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: .2rem;
+}
+#new-btn{
+    /* margin-top: 1rem; */
+    display: block;
+    margin: .3rem auto 0rem auto;
+    height: 2rem;
+    width: 7rem;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: .2rem;
+}
