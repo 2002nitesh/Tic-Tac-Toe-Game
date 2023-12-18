@@ -83,5 +83,6 @@ resetBtn.addEventListener("click", () => {
         val.classList.remove("pointer")
     })
     mainBox.classList.remove("pointer")
+    msg.classList.add("hide")
 })
 
