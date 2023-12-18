@@ -41,8 +41,8 @@ boxes.forEach((box) => {
                 val.innerText = ""
                 val.classList.remove("pointer")
             })
-            mainBox.classList.remove("pointer")
             turn0 = true;
+            mainBox.classList.remove("pointer")
         }
         checkWinner();
     });
