@@ -9,7 +9,7 @@ body{
 }
 .text{
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
     font-weight: 1000;
     text-shadow: 2px 2px 5px rgb(12, 11, 11);
 }
