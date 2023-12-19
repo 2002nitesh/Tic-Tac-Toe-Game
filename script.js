@@ -41,8 +41,9 @@ boxes.forEach((box) => {
                 val.innerText = ""
                 val.classList.remove("pointer")
             })
-            turn0 = true;
+            
             mainBox.classList.remove("pointer")
+            turn0 = true;
         }
         checkWinner();
     });
@@ -66,6 +67,7 @@ const Winner = (op1) => {
     msg.classList.remove("hide")
     congoMsg.innerText = `Congratulations 🎉🎉, ${op1} Wins`
     mainBox.classList.add("pointer")
+    turn0 = true;
 }
 
 newGame.addEventListener("click", () => {
@@ -75,6 +77,7 @@ newGame.addEventListener("click", () => {
         val.classList.remove("pointer")
     })
     mainBox.classList.remove("pointer")
+    turn0 = ture;
 })
 
 resetBtn.addEventListener("click", () => {
@@ -84,5 +87,6 @@ resetBtn.addEventListener("click", () => {
     })
     mainBox.classList.remove("pointer")
     msg.classList.add("hide")
+    turn0 = true
 })
 
